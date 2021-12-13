@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+main{
+ height: 200vh;
+}
+.window{
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(100deg, #e9f851, #ffde00, 20%);
+    overflow: hidden;
+
+}
+.layer{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+}
+#L1{
+    background-image: url("LAYER1.png");
+}
+#L2{
+    background-image: url("LAYER2.png");
+}
+#L3{
+    background-image: url("LAYER3.png");
+}
+#L4{
+    background-image: url("LAYER4.png");
+}
+#L5{
+    background-image: url("LAYER55.png");
+}
+#L6{
+    background-image: url("LAYER6.png");
+}
